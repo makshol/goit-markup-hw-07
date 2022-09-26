@@ -15,6 +15,7 @@
   --footer-color: #2f303a;
   --icon-footer-background: rgba(255, 255, 255, 0.1);
 }
+
 body {
   background-color: var(--primary-backgroundcolor);
   color: var(--primary-text-color);
@@ -123,8 +124,6 @@ address {
   color: var(--logo-color);
 }
 
-
-
 /* site-nav */
 
 .header-nav {
@@ -171,8 +170,6 @@ address {
   left: 0;
 }
 
-
-
 .header-nav__link:hover,
 .header-nav__link:focus,
 .contact-list__link:hover,
@@ -183,7 +180,6 @@ address {
   fill: currentColor;
   margin-right: 10px;
 }
-
 
 .contact-list {
   display: flex;
@@ -203,8 +199,6 @@ address {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 /* Main */
 .hero {
@@ -326,8 +320,6 @@ address {
   color: var(--title-text-color);
 }
 
-
-
 .form-field {
   display: block;
   margin-bottom: 10px;
@@ -381,7 +373,7 @@ address {
 .register-form__desc {
   line-height: 1.71;
   color: var(--undertitle-text-color);
- }
+}
 
 .form-field__label {
   font-size: 12px;
@@ -463,7 +455,7 @@ textarea {
 }
 
 .form-field__textarea::placeholder {
-color: rgba(117, 117, 117, 0.5);
+  color: rgba(117, 117, 117, 0.5);
 }
 
 /* portfolio */
@@ -564,8 +556,6 @@ color: rgba(117, 117, 117, 0.5);
 
 /* advatages */
 
-
-
 .advantages-list {
   display: flex;
   gap: 30px;
@@ -590,8 +580,6 @@ color: rgba(117, 117, 117, 0.5);
 .advantages-list__item {
   width: calc((100% - 90px) / 4);
 }
-
-
 
 .advantages-list__text {
   color: var(--undertitle-text-color);
@@ -635,7 +623,6 @@ color: rgba(117, 117, 117, 0.5);
   display: flex;
   gap: 30px;
 }
-
 
 .team-list__item {
   background-color: var(--primary-backgroundcolor);
@@ -762,10 +749,6 @@ color: rgba(117, 117, 117, 0.5);
   margin-right: 0;
 }
 
-.logo__light {
-  color: var(--hero-text-color);
-}
-
 .address-list__link {
   color: var(--hero-text-color);
   font-style: normal;
@@ -774,11 +757,12 @@ color: rgba(117, 117, 117, 0.5);
   text-decoration: none;
 }
 
-.address-list__item:not(:last-of-type)  {
+.address-list__item:not(:last-of-type) {
   margin-bottom: 9px;
 }
 
-.address-list__link--mail, .address-list__link--tel {
+.address-list__link--mail,
+.address-list__link--tel {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-weight: 400;
@@ -866,9 +850,8 @@ color: rgba(117, 117, 117, 0.5);
 }
 
 .footer-form__input::placeholder {
-  color:rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
-
 
 .footer-form__button {
   min-width: 200px;
